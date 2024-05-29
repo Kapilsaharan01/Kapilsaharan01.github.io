@@ -5,143 +5,66 @@
  I have created an web page .
 -->
 <!DOCTYPE html>
-<html lang="en-US">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Mozilla splash page</title>
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mozilla</title>
     <style>
-      /* header and body setup */
-
-      html {
-        font-family: 'Open Sans', sans-serif;
-        background: url(pattern.png);
-      }
-
-      body {
-        width: 100%;
-        max-width: 1200px;
-        margin: 0 auto;
-        background-color: white;
-        position: relative;
-      }
-
-      /* Header styling */
-
-      header {
-        height: 150px;
-      }
-
-      header img {
-        width: 100px;
-        position: absolute;
-        right: 32.5px;
-        top: 32.5px;
-      }
-
-      h1 {
-        font-size: 50px;
-        line-height: 140px;
-        margin: 0 0 0 32.5px;
-      }
-
-      /* main section and video styling */
-
-      main {
-        background: #ccc;
-      }
-
-      article {
-        padding: 20px;
-      }
-
-      h2 {
-        margin-top: 0;
-      }
-
-      p {
-        line-height: 2;
-      }
-
-      iframe {
-        float: left;
-        margin: 0 20px 20px 0;
-        max-width: 100%;
-      }
-
-      /* further info links */
-
-      .further-info {
-        clear: left;
-        padding: 40px 0;
-        background: #c13832;
-        box-shadow: inset 0 3px 2px rgba(0,0,0,0.5),
-                    inset 0 -3px 2px rgba(0,0,0,0.5);
-      }
-
-      .further-info a {
-        width: 25%;
-        display: block;
-        float: left;
-      }
-
-      .further-info img {
-        max-width: 100%;
-      }
-
-      .clearfix {
-        clear: both;
-      }
-
-      /* Red panda image */
-
-      .red-panda img {
-        display: block;
-        max-width: 100%;
-      }
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            text-align: center;
+        }
+        .video {
+            margin: 20px 0;
+        }
+        .content {
+            background-color: #f5f5f5;
+            padding: 20px;
+        }
+        .logos {
+            background-color: #d32f2f;
+            padding: 20px;
+        }
+        .logos img {
+            margin: 10px;
+        }
+        .red-panda img {
+            width: 100%;
+        }
+        .red-panda {
+            margin: 20px 0;
+        }
     </style>
-  </head>
-  <body>
-    <header>
-      <h1>Mozilla</h1>
-      <!-- insert <img> element, link to the small
-          version of the Firefox logo -->
+</head>
+<body>
+    <div class="container">
+        <h1>Mozilla</h1>
+        
+        <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+        </div>
 
-    </header>
+        <div class="content">
+            <h2>Rocking the free web</h2>
+            <p>Mozilla are a global community of technologists, thinkers, and builders, working together to keep the Internet alive and accessible, so people worldwide can be informed contributors and creators of the Web. We believe this act of human collaboration across an open platform is essential to individual growth and our collective future.</p>
+            <p>Click on the images below to find more information about the cool stuff Mozilla does. <a href="https://commons.wikimedia.org/wiki/File:RedPandaFullBody.JPG">Red panda picture by Mathias Appel.</a></p>
+        </div>
 
-    <main>
-      <article>
-        <!-- insert iframe from youtube -->
+        <div class="logos">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a6/Logo_Navigator_3.0.png" alt="Mozilla Logo" width="100">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/d/d4/Mozilla_Developer_Network_Logo.svg" alt="Mozilla Developer Network Logo" width="100">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/8/8a/Mozilla_Firefox_logo_2013.png" alt="Mozilla Firefox Logo" width="100">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Mozilla_Hub_logo.png" alt="Mozilla Hub Logo" width="100">
+        </div>
 
-        <h2>Rocking the free web</h2>
-
-        <p>Mozilla are a global community of technologists, thinkers, and builders, working together to keep the Internet alive and accessible, so people worldwide can be informed contributors and creators of the Web. We believe this act of human collaboration across an open platform is essential to individual growth and our collective future.</p>
-
-        <p>Click on the images below to find more information about the cool stuff Mozilla does. <a href="https://www.flickr.com/photos/mathiasappel/21675551065/">Red panda picture</a> by Mathias Appel.</p>
-      </article>
-
-      <div class="further-info">
-        <!-- insert images with srcsets and sizes -->
-        <a href="https://www.mozilla.org/en-US/firefox/new/">
-          <img>
-        </a>
-        <a href="https://www.mozilla.org/">
-          <img>
-        </a>
-        <a href="https://addons.mozilla.org/">
-          <img>
-        </a>
-        <a href="https://developer.mozilla.org/en-US/">
-          <img>
-        </a>
-        <div class="clearfix"></div>
-      </div>
-
-      <div class="red-panda">
-        <!-- insert picture element -->
-      </div>
-
-    </main>
-  </body>
+        <div class="red-panda">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Red_Panda_32.jpg" alt="Red Panda">
+        </div>
+    </div>
+</body>
 </html>
