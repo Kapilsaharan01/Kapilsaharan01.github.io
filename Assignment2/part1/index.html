@@ -2,13 +2,12 @@
   Name: Kapil
   File: Assignment2part1
   Date: 30 june 2024
+  create a web page with image and youtube videos.
 -->
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- This is the Mozilla Firefox logo -->
-  <img src="https://github.com/mdn/learning-area/blob/main/html/multimedia-and-embedding/mdn-splash-page-start/originals/firefox_logo-only_RGB.png?raw=true" alt="logos" width="80">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mozilla</title>
@@ -20,6 +19,15 @@
       .container {
           width: 80%;
           margin: auto;
+      }
+      .header {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          margin-bottom: 20px;
+      }
+      .header h1 {
+          margin: 0;
       }
       .video {
           margin: 20px 0;
@@ -44,14 +52,18 @@
       }
   </style>
 </head>
-<body>
+<body> 
     <div class="container">
-        <!-- Main heading of the page -->
-        <h1>Mozilla</h1>
-                
+        <!-- Header with the title and the Mozilla Firefox logo -->
+        <div class="header">
+            <h1>Mozilla</h1>
+            <!-- Mozilla Firefox logo aligned to the right of the title -->
+            <img src="https://github.com/mdn/learning-area/blob/main/html/multimedia-and-embedding/mdn-splash-page-start/originals/firefox_logo-only_RGB.png?raw=true" alt="logos" width="80">
+        </div>
+        
         <div class="video">
             <!-- Embedded YouTube video -->
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/ojcNcvb1olg?si=bxMJeQYW8LJ5y8ly" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="450" height="315" src="https://www.youtube.com/embed/ojcNcvb1olg?si=bxMJeQYW8LJ5y8ly" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
 
         <div class="content">
