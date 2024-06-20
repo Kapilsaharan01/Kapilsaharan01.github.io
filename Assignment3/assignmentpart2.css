@@ -4,6 +4,20 @@ html {
     width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
   }
   
   /* Your CSS below here */
+div {
+    width: 200px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* 1rem = 16px, so 18px = 18/16 = 1.125rem */
+    font-size: 1.125rem;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    text-shadow: 1px 1px black;
+    
+}
