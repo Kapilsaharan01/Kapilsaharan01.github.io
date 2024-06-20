@@ -43,3 +43,57 @@
   }
   
   /* WRITE YOUR CODE BELOW HERE */
+
+  body{
+    font-family: serif;
+    font-size: 10px;
+    line-height: 10px;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+  }
+
+  h1, h2{
+    font-family: sans-serif;
+    letter-spacing: 1px;
+  }
+
+  h1{
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  h2{
+    font-size: 1.5rem;
+  }
+
+  p{
+    text-indent: 20px;
+  }
+
+  a{
+    color: rgb(157, 85, 85);
+    text-decoration: underline;
+    outline: none;
+  }
+
+  a:visited{
+    color: rgb(157, 85, 85);
+  }
+  
+  a:focus{
+    color: rgb(157, 85, 85);
+    text-decoration: none;
+  }
+
+  a:hover{
+    color: rgb(157, 85, 85);
+    text-decoration: none;
+  }
+
+  a:active{
+    color: orange;
+  }
+
+  .external::after{
+    content: url(./external-link-52.png);
+  }
