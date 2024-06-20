@@ -99,5 +99,39 @@
     width: 5px;
     height: 5px;
     
+  }
 
+  li{
+    line-height: 10px;
+  }
+  
+  ul, ol{
+    margin: 20px, 0;
+    padding-left: 40px;
+  }
+
+  ul{
+    list-style-type: square;
+  }
+
+  nav ul{
+    list-style: none;
+    padding: o;
+  }
+  nav ul li{
+    margin-bottom: 1rem;
+  }
+
+  nav ul li a{
+    display: block;
+    padding: 0.5rem;
+    background-color: rgb(242, 226, 226);
+    border: 1px solid rgb(152, 69, 69);
+    text-align: center;
+    text-decoration: none;
+    color: #a66;
+  }
+
+  nav ul li a:hover{
+    color: orange
   }
