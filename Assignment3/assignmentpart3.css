@@ -94,6 +94,10 @@
     color: orange;
   }
 
-  .external::after{
+  .linkicon::after{
     content: url(./external-link-52.png);
+    width: 5px;
+    height: 5px;
+    
+
   }
