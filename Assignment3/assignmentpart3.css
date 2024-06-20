@@ -72,7 +72,7 @@
     font-size: 1.5rem;
   }
 
-  p{
+  h2 + p{
     text-indent: 20px;
   }
 
