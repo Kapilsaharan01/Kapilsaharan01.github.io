@@ -19,5 +19,10 @@ div {
     background-color: rgb(255, 0, 0);
     color: white;
     text-shadow: 1px 1px black;
-    
+    border-radius: 10px;
+    border: 1px solid rgb(224, 15, 15);
+    background: linear-gradient(to right bottom, rgb(255, 0, 0, 1) 0%, rgba(242, 0, 0, 0.8) 30%, rgb(185, 0, 0, 0.8) 100%);
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.5),
+                inset 2px 0px 0px 2px rgba(255, 255, 255, 0.2),
+                inset 0px 2px 2px 0px rgba(0, 0, 0, 0.5);
 }
