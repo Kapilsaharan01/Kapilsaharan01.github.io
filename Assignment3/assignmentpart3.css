@@ -44,6 +44,12 @@
   
   /* WRITE YOUR CODE BELOW HERE */
 
+  @font-face {
+    font-family: 'Afta Sans';
+    src: url(./fonts/aftasansthin-regular-webfont.woff) format('woff')
+    url(./fonts/aftasansthin-regular-webfont.woff2) format('woff2')
+  }
+
   body{
     font-family: serif;
     font-size: 10px;
@@ -53,7 +59,7 @@
   }
 
   h1, h2{
-    font-family: sans-serif;
+    font-family: 'Afta Sans';
     letter-spacing: 1px;
   }
 
@@ -94,11 +100,15 @@
     color: orange;
   }
 
+
   .linkicon::after{
-    content: url(./external-link-52.png);
-    width: 5px;
-    height: 5px;
-    
+    content: "";
+    background: url('./external-link-52.png') no-repeat;
+    background-size: 10px 10px; /* Set your desired size here */
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    margin-left: 5px; /* Adjust spacing between text and icon */
   }
 
   li{
@@ -106,8 +116,7 @@
   }
   
   ul, ol{
-    margin: 20px, 0;
-    padding-left: 40px;
+    padding: 10px, 20px;
   }
 
   ul{
