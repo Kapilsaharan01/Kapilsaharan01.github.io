@@ -47,7 +47,7 @@
   @font-face {
     font-family: 'Afta Sans';
     src: url(./fonts/aftasansthin-regular-webfont.woff) format('woff')
-    url(./fonts/aftasansthin-regular-webfont.woff2) format('woff2')
+    url(./fonts/aftasansthin-regular-webfont.woff2) format('woff2');
   }
 
   body{
@@ -116,7 +116,7 @@
   }
   
   ul, ol{
-    padding: 10px, 20px;
+    padding: 10px 20px;
   }
 
   ul{
@@ -125,7 +125,7 @@
 
   nav ul{
     list-style: none;
-    padding: o;
+    padding: 0;
   }
   nav ul li{
     margin-bottom: 1rem;
